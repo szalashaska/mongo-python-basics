@@ -1,0 +1,16 @@
+{
+  "analyzer": "lucene.english",
+  "searchAnalyzer": "lucene.english",
+  "mappings": {
+    "dynamic": true
+  },
+  "synonyms": [
+    {
+      "name": "mapping",
+      "source": {
+        "collection": "synonyms"
+      },
+      "analyzer": "lucene.english"
+    }
+  ]
+}
